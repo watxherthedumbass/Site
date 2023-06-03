@@ -1,0 +1,157 @@
+html {
+
+  height: 100%;
+
+  width: 100%;
+
+}
+
+body {
+
+  color: #BC986A;
+
+  text-align: center;
+
+  background-color: #FBEEC1;
+
+  font-family: 'Sora';
+
+  animation: fadein 1s;
+
+  margin: auto;
+
+}
+
+@keyframes fadein {
+
+  0% {opacity: 0;}
+
+  100% {opacity: 1;}
+
+}
+
+#welcome {
+
+  color: #BC986A;
+
+  border: 3px solid white;
+
+}
+
+#content {
+
+  color: #BC986A;
+
+}
+
+a {
+
+  color: #BC986A;
+
+  background: transparent;
+
+}
+
+#welcome2 {
+
+  border: 3px solid white;
+
+}
+
+#Calculator {
+
+  border: 3px solid white;
+
+  padding-bottom: 30px;
+
+}
+
+#solve {
+
+  background: transparent;
+
+  border: 1px solid black;
+
+  color: #BC986A;
+
+}
+
+#number1 {
+
+  width: 100px;
+
+  border: 1px solid black
+
+}
+
+#number2 {
+
+  width: 100px;
+
+  border: 1px solid black;
+
+}
+
+#operator {
+
+  width: 50px;
+
+  border: 1px solid black;
+
+}
+
+img {
+
+  background: transparent;
+
+}
+
+button {
+
+  border: 1px solid black;
+
+  background: transparent;
+
+}
+
+#pac {
+
+  animation-name: move;
+
+  animation-duration: 3s;
+
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes move {
+
+  0% {transform:translate(0, 0)}
+
+  30% {transform:translate(100px,0px)}
+
+  50% {transform:translate(0px,100px)}
+
+  70% {transform:translate(-100px,0px)}
+
+  90% {transform:translate(0px,-100px)}
+
+  100% {transform:translate(0px, 0px)}
+
+}
+
+#moving {
+
+  border: 3px solid white;
+
+  padding-bottom: 80px;
+
+}
+
+#countdown {
+
+  border: 3px solid white;
+
+  padding-bottom: 30px;
+
+}
